@@ -12,6 +12,12 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.http4k:http4k-client-apache:4.41.4.0")
+    implementation("org.http4k:http4k-contract:4.41.4.0")
+    implementation("org.http4k:http4k-core:4.41.4.0")
+    implementation("org.http4k:http4k-format-gson:4.41.4.0")
+    implementation("org.http4k:http4k-server-jetty:4.41.4.0")
+    implementation("org.http4k:http4k-template-handlebars:4.41.4.0")
 }
 
 tasks.test {
